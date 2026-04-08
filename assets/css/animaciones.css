@@ -1,0 +1,69 @@
+/* Contenedor principal relativo para posicionar los elementos */
+.eligemia-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Ajusta según tu diseño */
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 0; /* Elimina espacios extra bajo imágenes */
+}
+
+/* Imagen de fondo */
+.seccion_1_bg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Título con efecto FadeIn Up */
+.title_eligemia {
+    position: absolute;
+    top: 30%; /* Ajusta la posición vertical */
+    left: 10%; /* Ajusta la posición horizontal */
+    width: 60%; /* Ajusta el tamaño del logo/texto */
+    z-index: 10;
+    
+    /* Animación */
+    opacity: 0;
+    animation: fadeInUp 1.2s ease-out forwards;
+    animation-delay: 0.5s;
+}
+
+/* Círculo con efecto FadeIn y Pulsación (FadeIn/Out) */
+.circle_bg {
+    position: absolute;
+    bottom: -5%; /* Ajuste para que sobresalga o encaje */
+    right: -5%;
+    width: 35%; /* Ajusta el tamaño */
+    z-index: 5;
+    
+    /* Animación */
+    opacity: 0;
+    animation: fadeInCircle 2s ease-in-out infinite alternate;
+}
+
+/* --- Definición de Animaciones --- */
+
+/* Efecto FadeIn Up (Sube y aparece) */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Efecto FadeIn y Out para el círculo */
+@keyframes fadeInCircle {
+    0% {
+        opacity: 0.2;
+        transform: scale(0.95);
+    }
+    100% {
+        opacity: 0.8;
+        transform: scale(1);
+    }
+}

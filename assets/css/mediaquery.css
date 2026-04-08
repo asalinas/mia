@@ -1,0 +1,125 @@
+@media screen and (max-width: 768px) {
+    .site-navbar .site-logo a img {
+        width: 60px;
+        height: auto;
+    }
+    .site-mobile-menu {
+        width: 65%;
+    }
+    .site-mobile-menu .site-nav-wrap > li > a {
+        padding-left: 10px;
+        font-size: 14px; 
+    }
+    .site-mobile-menu .site-nav-wrap > li > ul > li > a {
+        padding-left: 10px;
+        font-size: 14px; 
+    }
+    .site-mobile-menu .site-nav-wrap > li > ul > li > ul > li > a {
+        font-size: 14px;
+        padding-left: 10px; 
+    }
+    .menu_info p {
+        font-family: montserrat-extralight;
+        font-size: .8rem;
+    }
+    .menu_info > div > a > i {
+        font-size: 1.1rem;
+        color: var(--color-white);
+        letter-spacing: 5px;
+    }
+    /*-----------------------*/
+    #lo-que-es-mira  h1 {
+        margin-top: 5%;
+        font-size: 1.6rem!important;
+        text-align: center;
+    }
+    #lo-que-es-mira p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    /*-----------------------*/
+    #nuestros-servicios  h1 {
+        margin-top: 5%;
+        font-size: 1.6rem!important;
+        text-align: center;
+    }
+    #nuestros-servicios p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    #nuestros-servicios  div  div h2 {
+        font-size: 1.6rem!important;
+        text-align: center!important;
+    }
+    /*----------------------*/
+    #catalogo  h2 a {
+        margin-top: 5%;
+        font-size: .8rem!important;
+        text-align: center;
+    }
+    #catalogo p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    /*----------------------*/
+    #los-aliados  h1 {
+        margin-top: 5%;
+        font-size: 1.6rem!important;
+        text-align: center;
+    }
+    #nuestros-servicios p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    /*---------------------*/
+    .block-wrap {
+        position: relative;
+        margin-bottom: 5%;
+    }
+    .block-text {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+    .block-text h2 {
+        font-size: .8rem!important;
+        color: var(--color-white)!important;
+        text-align: center;
+    }
+    /*-------------------*/
+    #contacto  h1 {
+        margin-top: 5%!important;
+        font-size: 1.6rem!important;
+    }
+    /*------------------*/
+    footer div p {
+        font-size: .7rem;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+}
+@media screen and (min-width: 1600px) {
+    .modal-content {
+        margin: auto;
+        display: block;
+        max-width: 70%;
+        width: 70%;
+        height: auto;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 90%;
+        height: auto;
+    }
+}

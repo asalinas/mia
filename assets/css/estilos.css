@@ -1,0 +1,172 @@
+.container {
+    max-width: 1600px; 
+}
+
+
+/*estilos generales*/
+
+/* navbar */
+#site-mobile-menu {
+    overflow-y: hidden!important;
+    background: rgba(74, 112, 122, .9);
+}
+#site-mobile-menu::-webkit-scrollbar {
+    display: none;
+}
+#site-mobile-menu {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+#site-mobile-menu-body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.menu_info p {
+    margin-right: 1rem;
+}
+.menu_info p {
+    font-family: montserrat-extralight;
+    font-size: 1.2rem;
+    text-transform: initial;
+    color: var(--color-white);
+}
+.menu_info div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.menu_info > div > a > i {
+    font-size: 1.3rem;
+    color: var(--color-white);
+    letter-spacing: 15px;
+}
+
+/* carrusel */
+#carouselExampleIndicators {
+    position: relative;
+}
+
+.bg_footer {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: .9rem;
+}
+
+/*  Input form */
+input[type="text"] {
+    border: solid 2px var(--color-grey);
+}
+input[type="email"] {
+    border: solid 2px var(--color-grey);
+}
+input[type="number"] {
+    border: solid 2px var(--color-grey);
+}
+#btn_enviar {
+    background-color: var(--color-text-dark)!important;
+}
+#btn_enviar:hover {
+    background-color: var(--color-primary)!important;
+}
+
+/*-------------------------------------------*/
+/*               barras horizontales
+/*-------------------------------------------*/
+.txt-cintilla {
+    color: var(--color-white);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+/* slider consultas */
+
+/* Equal height columns */
+#consultas .row > [class*="col"] {
+    display: flex;
+}
+
+/* Image full cover */
+.object-fit-cover {
+    object-fit: cover;
+}
+
+/* Carousel full height */
+#carouselExampleCaptions,
+.carousel-inner,
+.carousel-item {
+    height: 100%;
+}
+
+/* Center content */
+.carousel-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Remove default caption behavior */
+.carousel-caption {
+    position: static;
+}
+
+/* Remove default caption behavior */
+.carousel-caption-section {
+    position: static;
+}
+
+#btn_enviar-section {
+    background-color: var(--color-text-dark)!important;
+}
+#btn_enviar-section:hover {
+    background-color: var(--color-primary)!important;
+}
+
+.carousel-indicators-section [data-bs-target] {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #6c757d;
+      opacity: 0.5;
+}
+
+.carousel-indicators-section .active {
+    opacity: 1;
+    background-color: #333;
+}
+
+/* Optional: spacing for indicators */
+.carousel-indicators-section {
+    bottom: 20px;
+}
+
+/*-------------------------------------------*/
+/*                whatsapp icon
+/*-------------------------------------------*/
+#cont-whatsapp {
+    position: fixed;
+    top: auto;
+    right: 2%;
+    bottom: 2%;
+    z-index: 1000;
+}
+#cont-whatsapp > a > img {
+    width: 50px;
+    height: auto;
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+}
+#cont-whatsapp > a > img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
