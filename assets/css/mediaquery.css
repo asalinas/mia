@@ -97,6 +97,30 @@
         font-size: .7rem;
         text-align: center;
     }
+    .title_eligemia {
+        width: 80%!important;
+    }
+
+
+
+    /*------------------*/
+    .carousel-item > span > h1 {
+        font-size: 1.4rem!important;
+    }
+    .banner-1 {
+        font-size: 1.3rem!important;
+        width: 90%!important;
+    }
+    .banner-2 {
+        font-size: 1.3rem!important;
+        width: 90%!important;
+    }
+    #lista > li {
+        font-size: 1.1rem!important;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        line-height: 5px;
+    }
 }
 @media screen and (min-width: 1400px) {
     .modal-content {
