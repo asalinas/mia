@@ -53,7 +53,7 @@
 }
 
 .bg_footer {
-    background-color: var(--color-primary);
+    background-color: var(--color-quaternary);
     color: var(--color-white);
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -71,7 +71,7 @@ input[type="number"] {
     border: solid 2px var(--color-grey);
 }
 #btn_enviar {
-    background-color: var(--color-text-dark)!important;
+    background-color: var(--color-quaternary)!important;
 }
 #btn_enviar:hover {
     background-color: var(--color-primary)!important;
@@ -87,6 +87,9 @@ input[type="number"] {
 }
 
 /* slider consultas */
+.text-slider {
+    color: var(--color-text-dark);
+}
 
 /* Equal height columns */
 #consultas .row > [class*="col"] {
@@ -126,7 +129,7 @@ input[type="number"] {
 }
 
 #btn_enviar-section {
-    background-color: var(--color-text-dark)!important;
+    background-color: var(--color-quaternary)!important;
 }
 #btn_enviar-section:hover {
     background-color: var(--color-primary)!important;
