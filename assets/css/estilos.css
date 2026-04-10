@@ -88,7 +88,10 @@ input[type="number"] {
 
 /* slider consultas */
 .text-slider {
-    color: var(--color-text-dark);
+    color: var(--color-text);
+}
+.text-dark {
+    color: var(--color-text)!important;
 }
 
 /* Equal height columns */
